@@ -33,11 +33,6 @@ body{
    
 }
 
-a.externo::after {
-    content: '\00A0\F517'; /* para por emoji dps do link*/
-
-}
-
 
 
 header {
@@ -140,9 +135,7 @@ main img{
 main a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
-    background-color: var(--cor1);
-    padding: 2px 6px ;
+   color: black;
 }
 
 main a:hover{
@@ -212,4 +205,3 @@ footer a:hover{
     color: var(--cor1);
     text
 }
-
